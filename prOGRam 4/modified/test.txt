@@ -1,0 +1,4 @@
+modify the program tcp_client to accept a file as a parameter
+flag -f filename
+and to  send the file to the tcp_server application.
+The early email systems were proprietary and di not interoperate with other mial systems.

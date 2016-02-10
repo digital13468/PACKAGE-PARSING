@@ -1,0 +1,69 @@
+
+	 0022 19ad 59d9 000d 65d2 4ae0 0800 4500
+	 0028 54df 4000 7d06 6dcd 81ba 6086 81ba
+	 d728 dcac 0017 d335 50d7 2ebf 241f 5010
+	 0043 20bf 0000 0000 0000 0000
+
+DA = 00:22:19:ad:59:d9, SA = 00:0d:65:d2:4a:e0
+Type = 0x800
+Paylaod = IP
+
+	 000d 65d2 4ae0 0022 19ad 59d9 0800 4510
+	 0045 da1c 4000 4006 2563 81ba d728 81ba
+	 6086 0017 dcac 2ebf 241f d335 50d7 5018
+	 2014 3b5b 0000 7275 6e5f 6475 6d70 3a20
+	 6c69 7374 656e 696e 6720 6f6e 2062 6365
+	 300d 0a
+
+DA = 00:0d:65:d2:4a:e0, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+
+	 ffff ffff ffff 0022 19ad 59d9 0806 0001
+	 0800 0604 0001 0022 19ad 59d9 81ba d728
+	 0000 0000 0000 81ba d730
+
+DA = ff:ff:ff:ff:ff:ff, SA = 00:22:19:ad:59:d9
+Type = 0x806
+Payload = ARP
+
+	 0022 19ad 59d9 000d 65d2 4ae0 0800 4500
+	 0028 54e0 4000 7d06 6dcc 81ba 6086 81ba
+	 d728 dcac 0017 d335 50d7 2ebf 243c 5010
+	 0043 20a2 0000 0000 0000 0000
+
+DA = 00:22:19:ad:59:d9, SA = 00:0d:65:d2:4a:e0
+Type = 0x800
+Paylaod = IP
+
+	 ffff ffff ffff 0022 19ad 59d9 0806 0001
+	 0800 0604 0001 0022 19ad 59d9 81ba d728
+	 0000 0000 0000 81ba d730
+
+DA = ff:ff:ff:ff:ff:ff, SA = 00:22:19:ad:59:d9
+Type = 0x806
+Payload = ARP
+
+	 0180 c200 0000 0001 63bf 5704 0026 4242
+	 0300 0000 0000 8000 0001 63bf 5700 0000
+	 0000 8000 0001 63bf 5700 8010 0000 1400
+	 0200 0f00 0000 0000 0000 0000
+
+DA = 01:80:c2:00:00:00, SA = 00:01:63:bf:57:04
+Len = 38
+
+	 ffff ffff ffff 000d 65d2 4ae0 0800 4500
+	 0031 0005 0000 ff11 62be 81ba d73e ffff
+	 ffff d11c 0045 001d 0000 0001 6369 7363
+	 6f6e 6574 2e63 6667 006f 6374 6574 00
+
+DA = ff:ff:ff:ff:ff:ff, SA = 00:0d:65:d2:4a:e0
+Type = 0x800
+Paylaod = IP
+
+3 packets are broadcast packets
+4 packets are IP packets
+2 packets are ARP packets
+
+11 packets received by filter
+0 packets dropped by kernel

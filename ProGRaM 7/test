@@ -1,0 +1,441 @@
+
+	 000d 65d2 4ae0 0022 19ad 59d9 0800 4510
+	 006c 8dbc 4000 4006 719c 81ba d728 81ba
+	 6086 0016 fb95 70bf 5990 6f67 8ccd 5018
+	 ffff 3b82 0000 8e33 3cd8 2194 d0d5 9776
+	 b8cc 40d8 3f8e 2f24 d5ac c021 8998 ff4d
+	 b4d4 81a7 e3b1 345f 566f 2652 189d 930d
+	 6727 465f 500a 78bf 09bb c841 429c 4ca7
+	 606d a0db 5442 b08d 5f6c
+
+DA = 00:0d:65:d2:4a:e0, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 108 bytes.
+The identifier is 36284.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 22
+Destination port number: 64405
+Sequence number: 8145296
+Acknowledgement number: 7732429
+Length of the TCP header: 20 bytes
+Acknowledgement Number is Valid
+Data Should be Pushed to the Application
+Window size: 65535 bytes
+Checksum for TCP: 15234
+The checksum for IP is 29084.
+The IP address of the sender is 129.186.215.40
+The IP address of the destination is 129.186.96.134
+
+	 0022 19ad 59d9 000d 65d2 4ae0 0800 4500
+	 0028 6d43 4000 7d06 5569 81ba 6086 81ba
+	 d728 fb95 0016 6f67 8ccd 70bf 59d4 5010
+	 4328 6f14 0000 0000 0000 0000
+
+DA = 00:22:19:ad:59:d9, SA = 00:0d:65:d2:4a:e0
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 40 bytes.
+The identifier is 27971.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 125.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64405
+Destination port number: 22
+Sequence number: 7732429
+Acknowledgement number: 8145364
+Length of the TCP header: 20 bytes
+Acknowledgement Number is Valid
+Window size: 17192 bytes
+Checksum for TCP: 28436
+The checksum for IP is 21865.
+The IP address of the sender is 129.186.96.134
+The IP address of the destination is 129.186.215.40
+
+	 ffff ffff ffff 0013 d4b1 cbf4 0806 0001
+	 0800 0604 0001 0013 d4b1 cbf4 81ba d734
+	 0000 0000 0000 81ba d72b ffff ffff ffff
+	 ffff ffff ffff ffff ffff ffff
+
+DA = ff:ff:ff:ff:ff:ff, SA = 00:13:d4:b1:cb:f4
+Type = 0x806
+Payload = ARP
+The ARP protocol is used on Ethernet.
+IP protocol is using the ARP protocol.
+The length of the hardware address fields is 6 bytes.
+The length of the upper-layer protocol address is 4 bytes.
+This is a request packet.
+Hardware address of the sender-00:13:d4:b1:cb:f4
+IP address of the sender:129.186.215.52
+Hardware address of the target device-00:00:00:00:00:00
+IP address of the target:129.186.215.43
+
+	 0180 c200 0000 0001 63bf 5704 0026 4242
+	 0300 0000 0000 8000 0001 63bf 5700 0000
+	 0000 8000 0001 63bf 5700 8010 0000 1400
+	 0200 0f00 0000 0000 0000 0000
+
+DA = 01:80:c2:00:00:00, SA = 00:01:63:bf:57:04
+Len = 38
+
+	 0022 19ad 59d9 0022 19ad 5a0b 0800 4510
+	 003c 2a0e 4000 4006 5ed7 81ba d729 81ba
+	 d728 fa30 0050 5bbe f3eb 0000 0000 a002
+	 ffff 27a0 0000 0204 05b4 0103 0303 0402
+	 080a 4a45 da2c 0000 0000
+
+DA = 00:22:19:ad:59:d9, SA = 00:22:19:ad:5a:0b
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 60 bytes.
+The identifier is 10766.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64048
+Destination port number: 80
+Sequence number: 6804459
+Acknowledgement number: 0
+Length of the TCP header: 40 bytes
+Sychronize Packet
+Window size: 65535 bytes
+Checksum for TCP: 10144
+Options:
+02 04 05 b4 01 03 03 03 04 02 08 0a 4a 45 da 2c 00 00 00 00 
+HTTP payload:
+
+The checksum for IP is 24279.
+The IP address of the sender is 129.186.215.41
+The IP address of the destination is 129.186.215.40
+
+	 0022 19ad 5a0b 0022 19ad 59d9 0800 4500
+	 003c 8dbd 4000 4006 fb37 81ba d728 81ba
+	 d729 0050 fa30 fa79 3a62 5bbe f3ec a012
+	 ffff b1f5 0000 0204 05b4 0103 0303 0402
+	 080a 083b 7fbb 4a45 da2c
+
+DA = 00:22:19:ad:5a:0b, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 60 bytes.
+The identifier is 36285.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 80
+Destination port number: 64048
+Sequence number: 16894562
+Acknowledgement number: 6804460
+Length of the TCP header: 40 bytes
+Acknowledgement Number is Valid
+Sychronize Packet
+Window size: 65535 bytes
+Checksum for TCP: 45557
+Options:
+02 04 05 b4 01 03 03 03 04 02 08 0a 08 3b 7f bb 4a 45 da 2c 
+HTTP payload:
+
+The checksum for IP is 64311.
+The IP address of the sender is 129.186.215.40
+The IP address of the destination is 129.186.215.41
+
+	 0022 19ad 59d9 0022 19ad 5a0b 0800 4510
+	 0034 2a0f 4000 4006 5ede 81ba d729 81ba
+	 d728 fa30 0050 5bbe f3ec fa79 3a63 8010
+	 2086 78fe 0000 0101 080a 4a45 da2c 083b
+	 7fbb
+
+DA = 00:22:19:ad:59:d9, SA = 00:22:19:ad:5a:0b
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 52 bytes.
+The identifier is 10767.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64048
+Destination port number: 80
+Sequence number: 6804460
+Acknowledgement number: 16894563
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Window size: 8326 bytes
+Checksum for TCP: 30974
+Options:
+01 01 08 0a 4a 45 da 2c 08 3b 7f bb 
+HTTP payload:
+
+The checksum for IP is 24286.
+The IP address of the sender is 129.186.215.41
+The IP address of the destination is 129.186.215.40
+
+	 0180 c200 0000 0001 63bf 5704 0026 4242
+	 0300 0000 0000 8000 0001 63bf 5700 0000
+	 0000 8000 0001 63bf 5700 8010 0000 1400
+	 0200 0f00 0000 0000 0000 0000
+
+DA = 01:80:c2:00:00:00, SA = 00:01:63:bf:57:04
+Len = 38
+
+	 0022 19ad 59d9 0022 19ad 5a0b 0800 4510
+	 0039 2a1a 4000 4006 5ece 81ba d729 81ba
+	 d728 fa30 0050 5bbe f3ec fa79 3a63 8018
+	 2086 88b3 0000 0101 080a 4a45 e4f7 083b
+	 7fbb 6765 740d 0a
+
+DA = 00:22:19:ad:59:d9, SA = 00:22:19:ad:5a:0b
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 57 bytes.
+The identifier is 10778.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64048
+Destination port number: 80
+Sequence number: 6804460
+Acknowledgement number: 16894563
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Data Should be Pushed to the Application
+Window size: 8326 bytes
+Checksum for TCP: 34995
+Options:
+01 01 08 0a 4a 45 e4 f7 08 3b 7f bb 
+HTTP payload:
+get
+
+The checksum for IP is 24270.
+The IP address of the sender is 129.186.215.41
+The IP address of the destination is 129.186.215.40
+
+	 0022 19ad 5a0b 0022 19ad 59d9 0800 4500
+	 016e 8dbe 4000 4006 fa04 81ba d728 81ba
+	 d729 0050 fa30 fa79 3a63 5bbe f3f1 8018
+	 2086 b327 0000 0101 080a 083b 8a88 4a45
+	 e4f7 3c21 444f 4354 5950 4520 4854 4d4c
+	 2050 5542 4c49 4320 222d 2f2f 4945 5446
+	 2f2f 4454 4420 4854 4d4c 2032 2e30 2f2f
+	 454e 223e 0a3c 4854 4d4c 3e3c 4845 4144
+	 3e0a 3c54 4954 4c45 3e35 3031 204d 6574
+	 686f 6420 4e6f 7420 496d 706c 656d 656e
+	 7465 643c 2f54 4954 4c45 3e0a 3c2f 4845
+	 4144 3e3c 424f 4459 3e0a 3c48 313e 4d65
+	 7468 6f64 204e 6f74 2049 6d70 6c65 6d65
+	 6e74 6564 3c2f 4831 3e0a 6765 7420 746f
+	 202f 696e 6465 782e 6874 6d6c 206e 6f74
+	 2073 7570 706f 7274 6564 2e3c 503e 0a49
+	 6e76 616c 6964 206d 6574 686f 6420 696e
+	 2072 6571 7565 7374 2067 6574 3c50 3e0a
+	 3c48 523e 0a3c 4144 4452 4553 533e 4170
+	 6163 6865 2f31 2e33 2e34 3120 5365 7276
+	 6572 2061 7420 7370 6f63 6b2e 6565 2e69
+	 6173 7461 7465 2e65 6475 2050 6f72 7420
+	 3830 3c2f 4144 4452 4553 533e 0a3c 2f42
+	 4f44 593e 3c2f 4854 4d4c 3e0a
+
+DA = 00:22:19:ad:5a:0b, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 366 bytes.
+The identifier is 36286.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 80
+Destination port number: 64048
+Sequence number: 16894563
+Acknowledgement number: 6804465
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Data Should be Pushed to the Application
+Window size: 8326 bytes
+Checksum for TCP: 45863
+Options:
+01 01 08 0a 08 3b 8a 88 4a 45 e4 f7 
+HTTP payload:
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>501 Method Not Implemented</TITLE>
+</HEAD><BODY>
+<H1>Method Not Implemented</H1>
+get to /index.html not supported.<P>
+Invalid method in request get<P>
+<HR>
+<ADDRESS>Apache/1.3.41 Server at spock.ee.iastate.edu Port 80</ADDRESS>
+</BODY></HTML>
+
+The checksum for IP is 64004.
+The IP address of the sender is 129.186.215.40
+The IP address of the destination is 129.186.215.41
+
+	 0022 19ad 5a0b 0022 19ad 59d9 0800 4500
+	 0034 8dbf 4000 4006 fb3d 81ba d728 81ba
+	 d729 0050 fa30 fa79 3b9d 5bbe f3f1 8011
+	 2086 b1ed 0000 0101 080a 083b 8a88 4a45
+	 e4f7
+
+DA = 00:22:19:ad:5a:0b, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 52 bytes.
+The identifier is 36287.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 80
+Destination port number: 64048
+Sequence number: 16894877
+Acknowledgement number: 6804465
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Finish Packet
+Window size: 8326 bytes
+Checksum for TCP: 45549
+Options:
+01 01 08 0a 08 3b 8a 88 4a 45 e4 f7 
+HTTP payload:
+
+The checksum for IP is 64317.
+The IP address of the sender is 129.186.215.40
+The IP address of the destination is 129.186.215.41
+
+	 0022 19ad 59d9 0022 19ad 5a0b 0800 4510
+	 0034 2a1b 4000 4006 5ed2 81ba d729 81ba
+	 d728 fa30 0050 5bbe f3f1 fa79 3b9e 8010
+	 205e 624d 0000 0101 080a 4a45 e4f8 083b
+	 8a88
+
+DA = 00:22:19:ad:59:d9, SA = 00:22:19:ad:5a:0b
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 52 bytes.
+The identifier is 10779.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64048
+Destination port number: 80
+Sequence number: 6804465
+Acknowledgement number: 16894878
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Window size: 8286 bytes
+Checksum for TCP: 25165
+Options:
+01 01 08 0a 4a 45 e4 f8 08 3b 8a 88 
+HTTP payload:
+
+The checksum for IP is 24274.
+The IP address of the sender is 129.186.215.41
+The IP address of the destination is 129.186.215.40
+
+	 0022 19ad 59d9 0022 19ad 5a0b 0800 4510
+	 0034 2a1c 4000 4006 5ed1 81ba d729 81ba
+	 d728 fa30 0050 5bbe f3f1 fa79 3b9e 8011
+	 2086 6223 0000 0101 080a 4a45 e4f9 083b
+	 8a88
+
+DA = 00:22:19:ad:59:d9, SA = 00:22:19:ad:5a:0b
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 52 bytes.
+The identifier is 10780.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 64048
+Destination port number: 80
+Sequence number: 6804465
+Acknowledgement number: 16894878
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Finish Packet
+Window size: 8326 bytes
+Checksum for TCP: 25123
+Options:
+01 01 08 0a 4a 45 e4 f9 08 3b 8a 88 
+HTTP payload:
+
+The checksum for IP is 24273.
+The IP address of the sender is 129.186.215.41
+The IP address of the destination is 129.186.215.40
+
+	 0022 19ad 5a0b 0022 19ad 59d9 0800 4500
+	 0034 8dc0 4000 4006 fb3c 81ba d728 81ba
+	 d729 0050 fa30 fa79 3b9e 5bbe f3f2 8010
+	 2085 b1ed 0000 0101 080a 083b 8a88 4a45
+	 e4f9
+
+DA = 00:22:19:ad:5a:0b, SA = 00:22:19:ad:59:d9
+Type = 0x800
+Paylaod = IP
+The IP protocol is version 4.
+The length of the IP header is 20 bytes.
+The length of the payload is 52 bytes.
+The identifier is 36288.
+Flags are 0 1 0.
+Offset is 0.
+TTL is 64.
+The upper-layer protocol handling this packet is TCP.
+Source port number: 80
+Destination port number: 64048
+Sequence number: 16894878
+Acknowledgement number: 6804466
+Length of the TCP header: 32 bytes
+Acknowledgement Number is Valid
+Window size: 8325 bytes
+Checksum for TCP: 45549
+Options:
+01 01 08 0a 08 3b 8a 88 4a 45 e4 f9 
+HTTP payload:
+
+The checksum for IP is 64316.
+The IP address of the sender is 129.186.215.40
+The IP address of the destination is 129.186.215.41
+
+1 packets are broadcast packets.
+11 packets are IP packets.
+1 packets are ARP packets.
+0 packets are ICMP packets.
+11 packets are TCP packets.
+0 packets are SMTP packets.
+0 packets are POP packets.
+0 packets are IMAP packets.
+0 packets are DNS packets.
+9 packets are HTTP packets.
+
+23 packets received by filter
+0 packets dropped by kernel
